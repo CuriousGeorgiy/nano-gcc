@@ -1,0 +1,6 @@
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/CMakeFiles/middleend.dir
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/CMakeFiles/frontend.dir
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/CMakeFiles/backend.dir
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/CMakeFiles/reversed_frontend.dir

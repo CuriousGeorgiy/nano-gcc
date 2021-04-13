@@ -1,0 +1,20 @@
+AbstractSyntaxTree ::= ‘{‘ FunctionDeclaration ‘}’
+FunctionDeclaration ::= “nil” | "function-declaration" '{' FunctionImplementation '}' '{' FunctionDeclaration '}''
+FunctionImplementation ::= Identifier ‘{‘ FunctionImplementationParameter ’}’ ’{‘ Block ‘}’
+Identifier ::= ['a'-'z' 'A'-'Z' '_'] ['a'-'z' 'A'-'Z' '0'-'9' '_']*
+FunctionImplementationParameter ::= “nil” | "function-implementation-parameter" '{' FunctionImplementationParameter '}' '{' Variable '}'
+Variable ::= Identifier “{nil} {nil}”
+Block ::= Concatenation
+Concatenation ::= “nil” | "concatenation" '{' Statement '}' '{' Concatenation '}'
+Statement ::= If | While | Operator
+If ::= "if" '{' Condition '}' '{' Block '}'
+While ::= "while" '{' Condition '}' '{' Block '}'
+Сondition ::= Expression
+Operator ::= AssignmentOperator | FunctionСallOperator | Return | MathematicalOperator
+AssignmentOperator ::= '=' '{' Variable '}' '{' Expression '}'
+FunctionCallOperator ::= ‘$’##Identifier '{' FunctionCallParameter '}' "{nil}"
+FunctionCallParameter ::= “nil” | "function-call-parameter" '{ FunctionCallParameter '}') '{' Expression '}'
+Return ::= "return" '{' Expression '}' "{nil}"
+MathematicalOperator ::= ['+' '-' '<' "<=" "==" '>' ">=" "||" '*' '/' "&&" '^'] '{' Expression '}' '{' Expression '}'
+Expression ::= Variable | Number | FunctionCallOperator | MathematicalOperator
+Number ::= ['0'-'9']+ “{nil} {nil}”

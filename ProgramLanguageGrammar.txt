@@ -1,0 +1,23 @@
+Program ::= FunctionDeclaration+
+FunctionDeclaration ::= "function" FunctionImplementation
+FunctionImplementation ::= Identifier'(' FunctionImplementationParameters ')' Block
+Identifier ::= ['a'-'z' 'A'-'Z' '_'] ['a'-'z' 'A'-'Z' '0'-'9' '_']+
+FunctionImplementationParameters ::= {Variable (?=',')}* Variable?
+Variable ::= Identifier
+Block ::= '{' BlockBody '}'
+BlockBody ::= Statement+
+Statement ::= If | While | Operator
+If ::= "if" '(' Condition ')' Block
+While := "while" '( Condition ')' Block
+Condition ::= Expression
+Operator ::= (AssignmentOperator | FunctionСallOperator | Return) ';'
+AssignmentOperator ::= Variable '=' Expression
+FunctionCallOperator ::= Identifier '(' FunctionCallParameters ')'
+FunctionCallParameters ::= {Expression (?=',')}* Expression?
+Return ::= "return" Expression
+Expression ::= TertiaryExpression {['+' '-' '<' "<=" "==" '>' ">=" "||"] Expression}?
+TertiaryExpression ::= SecondaryExpression {['*' '/' "&&"] TertiaryExpression}?
+SecondaryExpression ::= PrimaryExpression {['^'] SecondaryExpression}?
+PrimaryExpression ::= '(' Expression ')' | FunctionCallOperator | Variable | Number
+Number ::= ['0'-'9']+
+

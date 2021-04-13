@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="nano-gcc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="middleend">
+				<Option output="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/middleend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/$PROJECT_DIR$"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 middleend"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="middleend/fast">
+				<Option output="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/middleend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/$PROJECT_DIR$"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 middleend/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="frontend">
+				<Option output="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/frontend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/$PROJECT_DIR$"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 frontend"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="frontend/fast">
+				<Option output="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/frontend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/$PROJECT_DIR$"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 frontend/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="backend">
+				<Option output="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/backend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/$PROJECT_DIR$"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 backend"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="backend/fast">
+				<Option output="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/backend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/$PROJECT_DIR$"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 backend/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reversed_frontend">
+				<Option output="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/reversed_frontend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/$PROJECT_DIR$"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 reversed_frontend"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reversed_frontend/fast">
+				<Option output="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug/reversed_frontend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/$PROJECT_DIR$"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 reversed_frontend/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\79017\Documents\Work\MIPT\1 semester\Programming\nano-gcc\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/AbstractSyntaxTree.cpp">
+			<Option target="middleend"/>
+			<Option target="frontend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/AbstractSyntaxTree.hpp">
+			<Option target="middleend"/>
+			<Option target="frontend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/AbstractSyntaxTreeDumpLanguage.cpp">
+			<Option target="middleend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/AbstractSyntaxTreeDumpLanguage.hpp">
+			<Option target="middleend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/AbstractSyntaxTreeDumpLanguageAnalyser.cpp">
+			<Option target="middleend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/AbstractSyntaxTreeDumpLanguageAnalyser.hpp">
+			<Option target="middleend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/AbstractSyntaxTreeDumpLanguageLexer.cpp">
+			<Option target="middleend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/AbstractSyntaxTreeDumpLanguageLexer.hpp">
+			<Option target="middleend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Backend.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Backend.hpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/BackendMain.cpp">
+			<Option target="backend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Canary.cpp">
+			<Option target="middleend"/>
+			<Option target="frontend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Canary.hpp">
+			<Option target="middleend"/>
+			<Option target="frontend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/File.cpp">
+			<Option target="middleend"/>
+			<Option target="frontend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/File.hpp">
+			<Option target="middleend"/>
+			<Option target="frontend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Frontend.cpp">
+			<Option target="frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Frontend.hpp">
+			<Option target="frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/FrontendMain.cpp">
+			<Option target="frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Middleend.cpp">
+			<Option target="middleend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Middleend.hpp">
+			<Option target="middleend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/MiddleendMain.cpp">
+			<Option target="middleend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/ProgramLanguage.cpp">
+			<Option target="frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/ProgramLanguage.hpp">
+			<Option target="frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/ProgramLanguageAnalyser.cpp">
+			<Option target="frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/ProgramLanguageAnalyser.hpp">
+			<Option target="frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/ProgramLanguageLexer.cpp">
+			<Option target="frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/ProgramLanguageLexer.hpp">
+			<Option target="frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/ReversedFrontend.cpp">
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/ReversedFrontend.hpp">
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/ReversedFrontendMain.cpp">
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/SyntaxError.cpp">
+			<Option target="middleend"/>
+			<Option target="frontend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/SyntaxError.hpp">
+			<Option target="middleend"/>
+			<Option target="frontend"/>
+			<Option target="backend"/>
+			<Option target="reversed_frontend"/>
+		</Unit>
+		<Unit filename="C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,37 @@
+{function-declaration
+{factorial
+{function-implementation-parameter
+{nil}{n {nil}{nil}}}{concatenation
+{if
+{<=
+{n {nil}{nil}}{1
+{nil}{nil}}}{concatenation
+{return
+{1
+{nil}{nil}}{nil}}{nil}}}{concatenation
+{return
+{*
+{n {nil}{nil}}{$factorial
+{function-call-parameter
+{nil}{-
+{n {nil}{nil}}{1
+{nil}{nil}}}}{nil}}}{nil}}{nil}}}}{function-declaration
+{main
+{nil}{concatenation
+{=
+{n {nil}{nil}}{0
+{nil}{nil}}}{concatenation
+{$scan
+{function-call-parameter
+{nil}{n {nil}{nil}}}{nil}}{concatenation
+{$print
+{function-call-parameter
+{nil}{/
+{$factorial
+{function-call-parameter
+{nil}{+
+{*
+{2
+{nil}{nil}}{n {nil}{nil}}}{1
+{nil}{nil}}}}{nil}}{2
+{nil}{nil}}}}{nil}}{nil}}}}}{nil}}}

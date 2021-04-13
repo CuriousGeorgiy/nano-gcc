@@ -1,0 +1,55 @@
+function main()
+{
+    aCoeff=0;
+    bCoeff=0;
+    cCoeff=0;
+    scan(aCoeff);
+    scan(bCoeff);
+    scan(cCoeff);
+
+    if ((aCoeff == 0))
+    {
+
+        if ((bCoeff == 0))
+        {
+
+            if ((cCoeff == 0))
+            {
+                print(3);
+                return 0;
+            }
+
+            print(0);
+            return 0;
+        }
+
+        print(1);
+        print(((0 - cCoeff) / bCoeff));
+        return 0;
+    }
+
+    discriminant=discriminant(aCoeff, bCoeff, cCoeff);
+
+    if ((discriminant < 0))
+    {
+        print(0);
+        return 0;
+    }
+
+
+    if ((discriminant == 0))
+    {
+        print(1);
+        print(((sqrt(discriminant) - bCoeff) / (2 * aCoeff)));
+        return 0;
+    }
+
+    print(2);
+    print(((sqrt(discriminant) - bCoeff) / (2 * aCoeff)));
+    print((((0 - sqrt(discriminant)) - bCoeff) / (2 * aCoeff)));
+    return 0;
+}
+function discriminant(aCoeff, (null))
+{
+    return ((bCoeff ^ 2) - (4 * (aCoeff * cCoeff)));
+}

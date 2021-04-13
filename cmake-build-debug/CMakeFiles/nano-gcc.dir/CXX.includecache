@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/DoublyLinkedPointerList.hpp
+cstdlib
+-
+cstdio
+-
+memory.h
+-
+
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Language.hpp
+
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Lexer.cpp
+Lexer.hpp
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Lexer.hpp
+Language.hpp
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Language.hpp
+SyntaxError.hpp
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/SyntaxError.hpp
+cctype
+-
+cstring
+-
+
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Lexer.hpp
+DoublyLinkedPointerList.hpp
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/DoublyLinkedPointerList.hpp
+Token.hpp
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Token.hpp
+cstdio
+-
+
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/SyntaxError.hpp
+stdexcept
+-
+
+C:/Users/79017/Documents/Work/MIPT/1 semester/Programming/nano-gcc/Token.hpp
+

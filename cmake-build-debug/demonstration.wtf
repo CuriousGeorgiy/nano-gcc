@@ -1,0 +1,91 @@
+function factorial(n)
+{
+	if (n <= 1) {
+		return 1;
+	}
+
+	return n * factorial(n - 1);
+}
+
+function fibonacci(n)
+{
+	f0 = 0;
+	f1 = 1;
+
+	prevF0 = 0;
+
+	while (n >= 1) {
+		print(f1);
+
+		prevF0 = f0;
+		f0 = f1;
+		f1 = f1 + prevF0;
+
+		n = n - 1;
+	}
+
+	return 0;
+}
+
+function main()
+{
+	n = 0;
+	scan(n);
+
+	fibonacci(n);
+
+	i = 1;
+	
+	while (i <= n) {
+		print(factorial(i));
+		i = i + 1;
+	}
+		
+
+	aCoeff = 0;
+	bCoeff = 0;
+	cCoeff = 0;
+
+	scan(aCoeff);
+	scan(bCoeff);
+	scan(cCoeff);
+
+	if (aCoeff == 0) {
+		if (bCoeff == 0) {
+			if (cCoeff == 0) {
+				print(3);
+				return 0;
+			}
+			
+			print(0);
+			return 0;
+		}
+		
+		print(1);
+		print((0 - cCoeff) / bCoeff);
+		return 0;
+	}
+
+	discriminant = discriminant(aCoeff, bCoeff, cCoeff);
+
+	if (discriminant < 0) {
+		print(0);
+		return 0;
+	}
+
+	if (discriminant == 0) {
+		print(1);
+		print((sqrt(discriminant) - bCoeff) / (2 * aCoeff));
+		return 0;
+	}
+
+	print(2);
+	print((sqrt(discriminant) - bCoeff) / (2 * aCoeff));
+	print(((0 - sqrt(discriminant)) - bCoeff) / (2 * aCoeff));  
+	return 0;
+}
+
+function discriminant(aCoeff, bCoeff, cCoeff)
+{
+	return bCoeff^2 - 4 * aCoeff * cCoeff;
+}
